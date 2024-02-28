@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="thigW1" name="QSynthPlugin" projectType="audioplug" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1"
+              pluginCharacteristicsValue="pluginWantsMidiIn" pluginVST3Category="Fx">
+  <MAINGROUP id="D1JV1R" name="QSynthPlugin">
+    <GROUP id="{B9535F77-F1BE-19D3-37BD-0F79F9B842E5}" name="Source">
+      <FILE id="kuCFpI" name="NewComponent.cpp" compile="1" resource="0"
+            file="Source/NewComponent.cpp"/>
+      <FILE id="yrmqJV" name="NewComponent.h" compile="0" resource="0" file="Source/NewComponent.h"/>
+      <FILE id="HCUe23" name="QEnveloper.cpp" compile="1" resource="0" file="Source/QEnveloper.cpp"/>
+      <FILE id="QXzVgA" name="QEnveloper.h" compile="0" resource="0" file="Source/QEnveloper.h"/>
+      <FILE id="a4LviL" name="Oscillators.h" compile="0" resource="0" file="Source/Oscillators.h"/>
+      <FILE id="QbDXgF" name="Phasors.h" compile="0" resource="0" file="Source/Phasors.h"/>
+      <FILE id="Wwk3W2" name="WaveSim.cpp" compile="1" resource="0" file="Source/WaveSim.cpp"/>
+      <FILE id="Dbn7ZL" name="WaveSim.h" compile="0" resource="0" file="Source/WaveSim.h"/>
+      <FILE id="UmcM8m" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="Yq7T1D" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="ET6Tjl" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="d3cblh" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <VS2019 targetFolder="Builds/VisualStudio2019">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="QSynthPlugin"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="QSynthPlugin"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../../modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../../../modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../../modules"/>
+        <MODULEPATH id="juce_core" path="../../../../modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../modules"/>
+        <MODULEPATH id="juce_events" path="../../../../modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../modules"/>
+      </MODULEPATHS>
+    </VS2019>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <LIVE_SETTINGS>
+    <WINDOWS/>
+  </LIVE_SETTINGS>
+</JUCERPROJECT>
